@@ -1,0 +1,127 @@
+/* styles.css */
+
+body {
+    font-family: 'General Sans', sans-serif;
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color Palette */
+:root {
+    --sage-green: #6b8e23;
+    --royal-yellow: #fada5e;
+    --grey: #808080;
+}
+
+/* Example styles for each section */
+
+.hero {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190622/ourmid/pngtree-g20-summit-simple-business-background-image_232743.jpg');
+    background-color: var(--sage-green);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    margin:10px;
+    box-shadow: 0px 3px 65px 0px rgb(0, 0, 0,0.2);
+}
+
+.founder {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+.founder img{
+    width:40%;
+    height: 30%;
+    padding: 10px;
+}
+.why-choose {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.icon {
+    text-align: center;
+    color: var(--sage-green);
+}
+.icon img{
+    width: 200px;
+    justify-content: left;
+}
+.countdown {
+    text-align: center;
+    padding: 60px 0;
+    background-color: var(--royal-yellow);
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#timer {
+    background-color: brown;
+    border-radius: 20px;
+    padding: 20px; 
+    display: inline-block; 
+}
+
+#timer h2 {
+    color: black;
+    margin: 0;
+}
+
+.countdown .cta-btn {
+    background-color: var(--sage-green);
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.countdown .cta-btn:hover {
+    background-color: darkgreen; 
+}
+
+.cta {
+    background-color: var(--grey);
+    color: var(--royal-yellow);
+    text-align: center;
+    padding: 80px 0;
+}
+/* styles.css */
+.hidden {
+    display: none;
+}
+
+#overlay-form {
+    position: fixed;
+    bottom: 10px; 
+    left: 10px; 
+    background-color: burlywood;
+    padding: 50px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    z-index: 999;
+}
+button{
+    margin:  20px;
+    background-color:antiquewhite;
+    width:100px;
+    height: 40px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
